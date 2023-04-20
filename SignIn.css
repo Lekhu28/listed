@@ -1,0 +1,172 @@
+.login-container {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+@media (max-width : 7000px){
+    .login-container{
+        display: flex;
+        
+    }
+}
+
+.left-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    background-color: black;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background-color: #F5F5F5;
+
+
+}
+
+.board {
+    font-family: Montserrat;
+font-size: 72px;
+font-weight: 700;
+line-height: 88px;
+letter-spacing: 0em;
+text-align: left;
+
+    color: white;
+}
+
+.sign-text {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-right: 280px;
+
+}
+
+.account-text {
+    font-size: 1rem;
+    margin-right: 240px;
+    padding-bottom: 15px;
+}
+
+
+.google-sign,
+.apple-sign {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-top: 0;
+    padding-bottom: 8px;
+    margin-right: 15px;
+    margin-bottom: 18px;
+    height: 30px;
+    width: 180px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+}
+
+.google-image,
+.apple-image {
+    height: 12px;
+    width: 12px;
+    display: flex;
+    position: relative;
+    left: 22px;
+    top: 14px;
+
+
+}
+
+.only-google-sign {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+.label-email,
+.label-pass {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    font-size: .8rem;
+    color: #000000;
+    font-weight: bold;
+    position: relative;
+
+
+}
+
+.input-username,
+.input-password {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    height: 40px;
+    width: 325px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f2f2f2;
+}
+
+
+.forgot-password {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    font-size: .8rem;
+    color: #346BD4;
+
+
+}
+
+.btn {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    padding: .5rem .8rem .5rem .8rem;
+    border-radius: .3rem;
+    border: none;
+    background-color: #007bff
+}
+
+.btn-text {
+    color: #ffffff
+}
+
+.not-account {
+    margin-top: .5rem;
+    margin-bottom: .5rem
+}
+
+.register {
+    color: #346BD4;
+}
+
